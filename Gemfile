@@ -1,15 +1,16 @@
 source 'https://rubygems.org'
-ruby '2.1.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
 group :production do
+  ruby '2.1.3'
   # Use PostgreSQL as the database for Active Record
   gem 'pg'
 end
 
 group :development do
+  ruby '2.1.1'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 end
