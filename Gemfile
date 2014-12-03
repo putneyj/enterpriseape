@@ -6,6 +6,8 @@ gem 'rails', '4.1.8'
 
 gem 'rails_12factor', group: :production
 
+gem 'devise'
+
 group :production do
   # Use PostgreSQL as the database for Active Record
   gem 'pg'
